@@ -2,22 +2,35 @@
 1. What is DOM?
 ans:The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.
 
-The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page..
 
+2.. What are the different ways to get an element from DOM?
+ Ans:getElementsByTagName , getElementsbyClassName , getElementById
+querySelectorAll , quarySelector
 
+3.3. What’s the difference between an Event Handler and an Event Listener?
 
+Ans:There’s a subtle, but important difference between these 2 methods of handling events.
 
+If you’ll use the first method, event handlers, the difference is that if you add two event handlers for the same button click, the second event handler will overwrite the first and only that event will trigger.
 
+Which takes us to the main learning:
 
+For a given element, you can only have one event handler per event type, but you can have multiple event listeners.
 
+4. What does “event bubbling” mean in JavaScript?
+ ans:Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy.
+ 
+5. Can you explain the different types of events available in JavaScript? 
+ans:Event	              Description
+onclick	The user                clicks an HTML element
+onmouseover	           The user moves the mouse over an HTML element
+onmouseout	           The user moves the mouse away from an HTML element
+onkeydown	          The user pushes a keyboard key
 
+6.What’s the difference between event.preventDefault() and event.stopPropagation() ?
 
-
-
-
-
-
-
+ans::::The event. preventDefault() will not allow the user to leave the page and open the URL. The event. stopPropagation() method stops the propagation of an event from occurring in the bubbling or capturing phase
 
 
 
