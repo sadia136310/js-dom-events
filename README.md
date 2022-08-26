@@ -2,8 +2,8 @@
 
                               JAVASCRIPT + HTML + CSS
                               DOM MANUPULATION
-JavaScript is a High Level, Interpreted Language.
-To connect JS with html , 
+1.JavaScript is a High Level, Interpreted Language.
+2.To connect JS with html , 
 For Internal script use script tag after all the body element
 Ex- 	<script>	…………..</script>
 For Externam script use it on same position and in scr give the JS file link. 	Ex.	<script src=”JavaScript.js”>…………..</script>
